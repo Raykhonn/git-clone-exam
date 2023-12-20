@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.form {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+}
+.user-name,
+.repo-name,
+.branch-name {
+  position: relative;
+  border: 2px solid gray;
+  width: 350px;
+  height: 40px;
+}
+.user-name:hover {
+  border: 3px solid dodgerblue;
+}
+.repo-name:hover {
+  border: 3px solid dodgerblue;
+}
+.branch-name:hover {
+  border: 3px solid dodgerblue;
+}
+
+.input-group.button {
+  position: relative;
+  bottom: 250px;
+}
+.main {
+  display: none;
+  place-items: center;
+  width: 98vw;
+  height: 100vh;
+}
+.tbody {
+  margin-top: 30px;
+}
+.tables {
+  position: absolute;
+  left: 48%;
+  top: 400px;
+}
+.btns {
+  position: absolute;
+  top: 30px;
+  left: 70%;
+}
+.in1 {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  border: none;
+  width: 700px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: rgb(155, 193, 231);
+  color: gray;
+}
